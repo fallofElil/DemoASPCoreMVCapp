@@ -1,0 +1,1 @@
+C:\Users\Elil\source\repos\MVCWebApplicationDemo\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

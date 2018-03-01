@@ -1,0 +1,11 @@
+C:\Users\Elil\source\repos\MVCWebApplicationDemo\MVCWebApplicationDemo\bin\Debug\netcoreapp2.0\MVCWebApplicationDemo.deps.json
+C:\Users\Elil\source\repos\MVCWebApplicationDemo\MVCWebApplicationDemo\bin\Debug\netcoreapp2.0\MVCWebApplicationDemo.runtimeconfig.json
+C:\Users\Elil\source\repos\MVCWebApplicationDemo\MVCWebApplicationDemo\bin\Debug\netcoreapp2.0\MVCWebApplicationDemo.runtimeconfig.dev.json
+C:\Users\Elil\source\repos\MVCWebApplicationDemo\MVCWebApplicationDemo\bin\Debug\netcoreapp2.0\MVCWebApplicationDemo.dll
+C:\Users\Elil\source\repos\MVCWebApplicationDemo\MVCWebApplicationDemo\bin\Debug\netcoreapp2.0\MVCWebApplicationDemo.pdb
+C:\Users\Elil\source\repos\MVCWebApplicationDemo\MVCWebApplicationDemo\obj\Debug\netcoreapp2.0\MVCWebApplicationDemo.csprojResolveAssemblyReference.cache
+C:\Users\Elil\source\repos\MVCWebApplicationDemo\MVCWebApplicationDemo\obj\Debug\netcoreapp2.0\MVCWebApplicationDemo.csproj.CoreCompileInputs.cache
+C:\Users\Elil\source\repos\MVCWebApplicationDemo\MVCWebApplicationDemo\obj\Debug\netcoreapp2.0\MVCWebApplicationDemo.AssemblyInfoInputs.cache
+C:\Users\Elil\source\repos\MVCWebApplicationDemo\MVCWebApplicationDemo\obj\Debug\netcoreapp2.0\MVCWebApplicationDemo.AssemblyInfo.cs
+C:\Users\Elil\source\repos\MVCWebApplicationDemo\MVCWebApplicationDemo\obj\Debug\netcoreapp2.0\MVCWebApplicationDemo.dll
+C:\Users\Elil\source\repos\MVCWebApplicationDemo\MVCWebApplicationDemo\obj\Debug\netcoreapp2.0\MVCWebApplicationDemo.pdb

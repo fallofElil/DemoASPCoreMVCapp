@@ -1,0 +1,15 @@
+networks:
+  default:
+    external:
+      name: nat
+services:
+  mvcwebapplicationdemo:
+    build:
+      context: C:\Users\Elil\source\repos\MVCWebApplicationDemo
+      dockerfile: MVCWebApplicationDemo\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: mvcwebapplicationdemo
+    ports:
+    - 80/tcp
+version: '3.0'

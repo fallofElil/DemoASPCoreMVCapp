@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  mvcwebapplicationdemo:
+    image: mvcwebapplicationdemo
+    build:
+      context: .
+      dockerfile: MVCWebApplicationDemo\Dockerfile
