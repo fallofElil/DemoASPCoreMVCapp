@@ -1,0 +1,69 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Synchronization page";
+}
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="~/css/myStyle.css">
+</head>
+
+<body>
+    <div class="tab">
+        <button class="tablinks" onclick="openDepartment(event, 'Lera')"
+                id="defaultOpen">
+            Отдел Леры
+        </button>
+        <button class="tablinks" onclick="openDepartment(event, 'Nikita')">
+            Отдел Никиты
+        </button>
+        <button class="tablinks" onclick="openDepartment(event, 'Vlad')">
+            Отдел Влада
+        </button>
+    </div>
+
+    <div id="Lera" class="tabcontent">
+        <h3>Отдел Леры</h3>
+        <p>
+            Здесь будут находить все таблицы, что нужны для синхронизации
+            отдела Леры с главным сервером.
+        </p>
+    </div>
+    <div id="Nikita" class="tabcontent">
+        <h3>Отдел Никиты</h3>
+        <p>
+            Здесь будут находить все таблицы, что нужны для синхронизации
+            отдела Никиты с главным сервером.
+        </p>
+    </div>
+    <div id="Vlad" class="tabcontent">
+        <h3>Отдел Влада</h3>
+        <p>
+            Здесь будут находить все таблицы, что нужны для синхронизации
+            отдела Влада с главным сервером.
+        </p>
+    </div>
+
+    <script>
+        function openDepartment(evt, depName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className =
+                    tablinks[i].className.replace(" active", "");
+            }
+
+            document.getElementById(depName).style.display = "block";
+            evt.currentTarget.className += "active";
+        }
+
+        document.getElementById("defaultOpen").click();
+    </script>
+</body>
+
